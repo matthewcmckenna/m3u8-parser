@@ -1,0 +1,70 @@
+package com.matthewcmckenna.github.m3u8.util
+
+/**
+ * https://tools.ietf.org/html/draft-pantos-http-live-streaming-20
+ */
+// 4.3.1.1
+val EXTM3U = "#EXTM3U"
+
+// 4.3.1.2
+val VERSION = "EXT-X-VERSION"
+
+// 4.3.2.1
+val INF = "EXTINF"
+
+// 4.3.2.2
+val BYTERANGE = "EXT-X-BYTERANGE"
+
+// 4/3/2/3
+val DISCONTINUITY = "EXT-X-DISCONTINUITY"
+
+// 4.3.2.4
+val KEY = "EXT-X-KEY"
+
+// 4.3.2.5
+val MAP = "EXT-X-MAP"
+
+// 4.3.2.6
+val PROGRAM_DATE_TIME = "EXT-X-PROGRAM-DATE-TIME"
+
+// 4.3.2.7
+val DATERANGE = "EXT-X-DATERANGE"
+
+// 4.3.3.1
+val TARGETDURATION = "EXT-X-TARGETDURATION"
+
+// 4.3.3.2
+val MEDIA_SEQUENCE = "EXT-X-MEDIA-SEQUENCE"
+
+// 4.3.3.3
+val DISCONTINUITY_SEQUENCE = "EXT-X-DISCONTINUITY-SEQUENCE"
+
+// 4.3.3.4
+val ENDLIST = "EXT-X-ENDLIST"
+
+// 4.3.3.5
+val PLAYLIST_TYPE = "EXT-X-PLAYLIST-TYPE"
+
+// 4.3.3.6
+val I_FRAMES_ONLY = "EXT-X-I-FRAMES-ONLY"
+
+// 4.3.4.1
+val MEDIA = "EXT-X-MEDIA"
+
+// 4.3.4.2
+val STREAM_INF = "EXT-X-STREAM-INF"
+
+// 4.3.4.3
+val I_FRAME_STREAM_INF = "EXT-X-I-FRAME-STREAM-INF"
+
+// 4.3.4.4
+val SESSION_DATA = "EXT-X-SESSION-DATA"
+
+// 4.3.4.5
+val SESSION_KEY = "EXT-X-SESSION-KEY"
+
+// 4.3.5.1
+val INDEPENDENT_SEGMENTS = "EXT-X-INDEPENDENT-SEGMENTS"
+
+// 4.3.5.2
+val START = "EXT-X-START"
