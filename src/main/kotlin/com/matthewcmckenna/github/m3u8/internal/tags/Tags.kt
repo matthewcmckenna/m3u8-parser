@@ -1,4 +1,4 @@
-package com.matthewcmckenna.github.m3u8.util
+package com.matthewcmckenna.github.m3u8.internal.tags
 
 /**
  * @see <a href="https://tools.ietf.org/html/rfc8216">HTTP Live Streaming Spec</a>
